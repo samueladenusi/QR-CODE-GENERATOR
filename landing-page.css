@@ -15,7 +15,8 @@
   font-family: DM sans;
 }
 
-body {
+html, body {
+  max-width: 100%;
   overflow-x: hidden;
 }
 #header-section,
