@@ -88,22 +88,19 @@ a:visited {
   color: #6f50b5;
   transform: scale(1.1);
 }
-.body-image {
+.hero {
   height: 100vh;
   width: 100%;
   background-image: url(Landing-page-images/Rectangle\ 3.png);
   background-size: cover;
   background-position: 90% center;
   background-repeat: no-repeat;
-  position: relative;
   display: flex;
   align-items: center;
 }
 
 .tagline {
-  position: absolute;
-  bottom: 100px;
-  left: 150px;
+  margin-left: 120px;
 }
 
 .details-handled {
