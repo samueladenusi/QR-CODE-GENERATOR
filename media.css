@@ -1,7 +1,8 @@
 /* =========================
    GLOBAL SAFETY FIX (IMPORTANT)
 ========================= */
-html, body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -20,7 +21,6 @@ img {
    TABLET (1024px and below)
 ========================= */
 @media (max-width: 1024px) {
-
   header {
     padding: 10px 40px;
   }
@@ -90,14 +90,12 @@ img {
     gap: 20px;
     padding: 20px 60px;
   }
-input {
+  input {
     width: 100% !important;
     max-width: 100% !important;
     min-width: 100% !important;
     box-sizing: border-box !important;
-}
-
-
+  }
 
   .site-footer {
     flex-direction: column;
@@ -117,7 +115,6 @@ input {
    MOBILE (768px and below)
 ========================= */
 @media (max-width: 768px) {
-
   header {
     padding: 10px 20px;
   }
@@ -142,7 +139,7 @@ input {
     margin-right: 0;
     margin-left: -25px;
   }
-  
+
   .hero {
     display: flex;
     height: auto;
@@ -151,8 +148,9 @@ input {
     background-size: cover;
     background-position: center;
   }
-  .hero p, h1 {
-    text-align:start;
+  .hero p,
+  h1 {
+    text-align: start;
   }
 
   .tagline {
@@ -221,7 +219,7 @@ input {
     margin-top: 30px;
   }
 
- .subscribe-box {
+  .subscribe-box {
     flex-direction: column;
     gap: 15px;
     border-radius: 0;
@@ -246,16 +244,16 @@ input {
     text-align: start;
     margin-left: 40px;
   }
-.letter p {
-  text-align: start;
-  margin-left: 40px;
-  width: 300px;
-}
+  .letter p {
+    text-align: start;
+    margin-left: 40px;
+    width: 300px;
+  }
   .site-footer {
     padding: 40px 20px;
   }
 
-.get-started-btn,
+  .get-started-btn,
   .view-more-btn,
   .contact-us-btn {
     width: 50%;
@@ -274,13 +272,12 @@ input {
     font-size: 0.75rem;
     margin-bottom: -50px;
   }
- 
+
   .ratings-class h2 {
     margin-left: 15px;
   }
   .ratings {
-   margin-top: -35px;
-   
+    margin-top: -35px;
   }
   .ratings span {
     font-size: 1rem;
@@ -294,31 +291,35 @@ input {
     padding: 0 20px;
     font-size: 0.9rem;
   }
-  .centered-container h2{
+  .centered-container h2 {
     text-align: center;
     font-size: 1.25rem;
     width: 300px;
   }
-  .scale h2, .team, .happy-client h2, .subscribe-container h2 {
+  .scale h2,
+  .team,
+  .happy-client h2,
+  .subscribe-container h2 {
     text-align: center;
     font-size: 1.25rem;
   }
 
-  
   .team {
     display: block;
     margin-left: -3px !important;
   }
-  .centered-container p, .scale p, .happy-client p, .subscribe-container p {
+  .centered-container p,
+  .scale p,
+  .happy-client p,
+  .subscribe-container p {
     text-align: center;
     font-size: 0.75rem;
-    
   }
-  .subscribe-container p   {
+  .subscribe-container p {
     width: 300px;
     margin-left: 40px;
   }
- 
+
   .happy-client p {
     width: 300px;
     margin-left: 50px;
@@ -326,7 +327,7 @@ input {
   .our-team {
     text-align: center !important;
     font-size: 0.75rem !important;
-    color: #181A20 !important;
+    color: #181a20 !important;
   }
   .scale p {
     margin-top: -35px;
@@ -344,11 +345,11 @@ input {
   .line2 {
     display: none;
   }
+}
 /* =========================
    SMALL MOBILE (480px and below)
 ========================= */
 @media (max-width: 480px) {
-
   .tagline h1 {
     font-size: 1.8rem;
   }
