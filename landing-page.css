@@ -179,6 +179,11 @@ a:visited {
 .feature-card:hover img {
   transform: scale(1.05);
 }
+.image-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .flight,
 .tourism,
 .hotel-building,
