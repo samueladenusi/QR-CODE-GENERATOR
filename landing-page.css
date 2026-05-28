@@ -552,20 +552,21 @@ span,
 .hotels {
   background-color: #6f50b5;
 }
-.hotels p,
-h3 {
+.hotels p {
   color: #fdfdfd;
   font-family: Open sans;
   font-size: 1rem;
 }
 .hotels h3 {
   font-size: 1.25rem;
+  color: #FDFDFD !important;
 }
 .profile h3 {
   font-weight: 700;
   font-size: 1.25rem;
   font-family: Open sans;
   margin-bottom: 10px;
+  color: #1F222A;
 }
 
 .profile img:first-child {
