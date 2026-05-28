@@ -340,8 +340,11 @@ img {
     margin-bottom: 15px;
   }
   .footer-copyright {
-    margin-left: -35px;
+    margin-left: -30px;
   }
+hr {
+  display: none;
+}
   .line2 {
     display: none;
   }
